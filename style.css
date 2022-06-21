@@ -3,7 +3,10 @@
     padding: 0;
     margin: 0;
     border: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
 }
+
 
 *,
 *:before,
@@ -316,7 +319,7 @@ a {
 
 .etot-apart-text {
     margin-top: 80px;
-    margin-left: 74px;
+    margin-left: 140px;
     width: 655px;
 }
 
