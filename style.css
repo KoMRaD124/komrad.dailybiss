@@ -185,7 +185,8 @@ a {
     .navbar-links {
         display: none;
     }
-    .navbar{
+
+    .navbar {
         width: 100%;
     }
 }
@@ -284,7 +285,7 @@ a {
 }
 
 @media (max-width:767px) {
-    .vot-pochemu{
+    .vot-pochemu {
         flex-direction: column;
     }
 }
@@ -318,6 +319,16 @@ a {
     padding-top: 94px;
     margin-left: 44px;
     margin-right: 40px;
+}
+
+@media (max-width:767px) {
+    .block-column {
+        width: 320px;
+        height: 218px;
+        padding: 0,10px;
+        display: block;
+    }
+
 }
 
 .column1 {
