@@ -317,7 +317,7 @@ a {
 
 .etot-apart-text {
     margin-top: 80px;
-    margin-left: 140px;
+    padding-left:20px;
     width: 655px;
 }
 
@@ -348,6 +348,8 @@ a {
 
 .etot-apart-img {
     margin-top: 90px;
+    margin-left: 40px;
+    padding-right: 104px;
 }
 
 .etot-apart-text-footer {
