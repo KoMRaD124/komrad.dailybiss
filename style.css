@@ -368,7 +368,8 @@ a {
         width: 320px;
         height: 484px;
         padding: 0, 10px;
-        display: block;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
         align-items: center;
         margin-top: 20px;
@@ -398,6 +399,7 @@ a {
         width: 320px;
         height: 218px;
         margin-left: 0px;
+        padding-top: 10px;
     }
 
     .column2 {
@@ -405,6 +407,7 @@ a {
         width: 320px;
         height: 218px;
         margin-left: 0px;
+        margin-top: 10px;
     }
 }
 
@@ -421,6 +424,7 @@ a {
 
 @media(max-width:421px) {
     .column-logo {
+        margin: 20px;
         width: 35px;
         height: 35px;
         -webkit-border-radius: 17.5px;
@@ -440,7 +444,6 @@ a {
 @media(max-width:421px) {
     .column-logo-text {
         font-size: 12px;
-        line-height: 140%;
         padding-top: 9px;
     }
 }
