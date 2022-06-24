@@ -88,8 +88,8 @@
             <div class="vibrat-variant-left-content">Предлагаем выбрать для вас удобный формат ведения апарт-отеля.
             </div>
             <div class="vibrat-variant-left-buttoms">
-                <div class="vibrat-variant-left-buttoms-sam krya">Буду вести самостоятельно</div>
-                <div class="vibrat-variant-left-buttoms-vam ">Доверю отель вам</div>
+                <div id="sam-button" class="vibrat-variant-left-buttoms-sam krya">Буду вести самостоятельно</div>
+                <div id="vam-button" class="vibrat-variant-left-buttoms-vam ">Доверю отель вам</div>
             </div>
         </div>
         <div class="vibrat-variant-right-sam ">
@@ -120,6 +120,10 @@
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="vibrat-variant-buttons-mobile">
+            <div  id="sam-button-mobile" class="vibrat-variant-left-buttoms-sam krya">Буду вести самостоятельно</div>
+            <div id="vam-button-mobile" class="vibrat-variant-left-buttoms-vam ">Доверю отель вам</div>
         </div>
     </div>
     <div id="Trade-in" class="dostupen-traid-in">
@@ -239,6 +243,8 @@
             <img src="img/Logo-footer.svg" alt="" class="logo-footer">
             <div class="footer-text"  data-bs-toggle="modal" data-bs-target="#call-form">Выбрать свой апарт-отель</div>
             <div class="footer-text" data-bs-toggle="modal" data-bs-target="#politic-main">Политика конфиденциальности
+            </div>
+            <div class="footer-text-mobile" data-bs-toggle="modal" data-bs-target="#politic-main">Политика конфиденциальности
             </div>
             <div class="footer-date">2022</div>
         </div>
@@ -637,8 +643,6 @@
             </div>
         </div>
     </div>
-    
-
     <div class="modal fade" id="call-form" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered modal-xl ">
           <div class="modal-content">
@@ -661,8 +665,6 @@
           </div>
         </div>
       </div>
-    
-
       <div class="modal fade" id="politic-main2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="naebka" data-bs-toggle="modal" data-bs-target="#call-form" ></div>
         <div class="modal-dialog modal-xl">
@@ -1056,6 +1058,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="mobile-call-icon">
+        <a href="tel:+"><img src="img/CallMeMobile.svg"></a>
     </div>
     <script src="https://unpkg.com/imask"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>

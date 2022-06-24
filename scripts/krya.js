@@ -1,5 +1,11 @@
-const clickActiveSam= document.querySelector(".vibrat-variant-left-buttoms-sam")
-const clickActiveVam= document.querySelector(".vibrat-variant-left-buttoms-vam")
+if (window.screen.width <422){
+    var clickActiveSam=document.getElementById("sam-button-mobile")
+    var clickActiveVam=document.getElementById("vam-button-mobile")
+}
+else{
+    var clickActiveSam=document.getElementById("sam-button")
+    var clickActiveVam=document.getElementById("vam-button")
+}
 const hideSam=document.querySelector(".vibrat-variant-right-sam")
 const hideVam=document.querySelector(".vibrat-variant-right-vam")
 clickActiveSam.addEventListener("click", ()=>{
