@@ -494,7 +494,7 @@ a {
 @media(max-width:421px) {
     .etot-apart {
         flex-direction: column-reverse;
-        margin:0 auto;
+        margin: 0 auto;
     }
 }
 
@@ -507,7 +507,7 @@ a {
 @media(max-width:421px) {
     .etot-apart-text {
         width: 263px;
-        margin:0 auto;
+        margin: 0 auto;
         padding-left: 0;
         margin-top: 40px;
     }
@@ -558,7 +558,8 @@ a {
         margin-top: 20px;
         padding-right: 0;
     }
-    .etot-apart-img img{
+
+    .etot-apart-img img {
         width: 280px;
     }
 }
@@ -614,7 +615,7 @@ a {
 @media(max-width:421px) {
     .vibrat-variant-left {
         width: 263px;
-        margin:0 auto;
+        margin: 0 auto;
         padding-top: 0;
     }
 }
@@ -633,18 +634,24 @@ a {
     .vibrat-variant-right-sam {
         width: 320px;
         height: 244px;
-        margin:0 auto ;
+        margin: 0 auto;
         margin-top: 20px;
 
     }
 }
-.variant-li{}
-@media(max-width:421px){
-    .variant-li{width: 210px;}
+
+.variant-li {}
+
+@media(max-width:421px) {
+    .variant-li {
+        width: 210px;
+    }
 }
-.first-li{
+
+.first-li {
     display: flex;
 }
+
 .vibrat-variant-right-vam {
     width: 652px;
     height: 381px;
@@ -659,17 +666,15 @@ a {
     .vibrat-variant-right-vam {
         width: 320px;
         height: 244px;
-        margin:0 auto ;
+        margin: 0 auto;
         margin-top: 20px;
     }
 }
-.vibrat-variant-spisok{
 
-}
-@media(max-width:421px){
-    .vibrat-variant-spisok{
+.vibrat-variant-spisok {}
 
-    }
+@media(max-width:421px) {
+    .vibrat-variant-spisok {}
 }
 
 .vibrat-variant-left-head {
@@ -840,7 +845,7 @@ a {
 }
 
 @media(max-width:421px) {
-    .img-icon-wrong{
+    .img-icon-wrong {
         padding-top: 0px;
     }
 }
@@ -850,7 +855,12 @@ a {
     padding-left: 25px;
 }
 
-@media(max-width:421px) {}
+@media(max-width:421px) {
+    .vibrat-variant-right-body {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
 
 .second-li {
     padding-top: 21px;
@@ -955,7 +965,7 @@ a {
 @media(max-width:421px) {
     .dostupen-traid-in-content {
         display: block;
-        
+
     }
 }
 
@@ -1116,7 +1126,7 @@ a {
 @media(max-width:421px) {
     .vashi-budushie-klienti-text {
         width: 282px;
-        margin:0 auto;
+        margin: 0 auto;
         margin-top: 0;
     }
 }
@@ -1160,9 +1170,9 @@ a {
 @media(max-width:421px) {
     .vashi-budushie-klienti-slider {
         width: 320px;
-        margin:0 auto;
+        margin: 0 auto;
         margin-top: 20px;
-       
+
     }
 }
 
