@@ -5,4 +5,8 @@ let mySwiper=new Swiper('.swiper', {
         nextEl: '.arrow-right',
         prevEl: '.swiper-button-prev',
     },
+    pagination:{
+        el: ".bulleti",
+        clickable:true,
+    }
 });

@@ -1677,3 +1677,27 @@ input:checked+label {
         z-index: 999;
     }
 }
+.bulletii{
+    display: none;
+}
+@media(max-width:421px){
+    .bulletii {
+        display: block;
+        padding-top: 20px;
+        margin: 0 auto
+    }
+    
+    .bulleti .swiper-pagination-bullet {
+        background: #1D1D1F;
+        border-radius: 15px;
+        width: 20px;
+        height: 10px;
+    }
+    
+    .bulleti .swiper-pagination-bullet-active {
+        width: 40px;
+        height: 10px;
+        background: #1D1D1F;
+        border-radius: 15px;
+    }
+}
