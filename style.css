@@ -635,7 +635,13 @@ a {
 
     }
 }
-
+.variant-li{}
+@media(max-width:421px){
+    .variant-li{width: 210px;}
+}
+.first-li{
+    display: flex;
+}
 .vibrat-variant-right-vam {
     width: 652px;
     height: 381px;
@@ -652,7 +658,14 @@ a {
         height: 244px;
         margin:0 auto ;
         margin-top: 20px;
-        
+    }
+}
+.vibrat-variant-spisok{
+
+}
+@media(max-width:421px){
+    .vibrat-variant-spisok{
+
     }
 }
 
@@ -813,19 +826,21 @@ a {
 }
 
 .img-icon {
-    margin-left: -20px;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 @media(max-width:421px) {}
 
 .img-icon-wrong {
-    margin-left: -20px;
     padding-right: 10px;
     padding-top: 15px;
 }
 
-@media(max-width:421px) {}
+@media(max-width:421px) {
+    .img-icon-wrong{
+        padding-top: 0px;
+    }
+}
 
 .vibrat-variant-right-body {
     padding-top: 30px;
@@ -836,11 +851,13 @@ a {
 
 .second-li {
     padding-top: 21px;
+    display: flex;
 }
 
 @media(max-width:421px) {
     .second-li {
         padding-top: 12px;
+        display: flex;
     }
 }
 
@@ -935,6 +952,7 @@ a {
 @media(max-width:421px) {
     .dostupen-traid-in-content {
         display: block;
+        
     }
 }
 
@@ -952,8 +970,10 @@ a {
 
 @media(max-width:421px) {
     .dostupen-traid-in-content-left {
+        width: 285px;
         border-right: none;
-        padding-left: 20px;
+        padding-left: 0;
+        margin: 0 auto;
         margin-top: 20px;
     }
 }
@@ -965,8 +985,10 @@ a {
 
 @media(max-width:421px) {
     .dostupen-traid-in-content-right {
+        width: 285px;
+        margin: 0 auto;
         padding-top: 20px;
-        padding-left: 20px;
+        padding-left: 0px;
     }
 }
 
@@ -1062,7 +1084,7 @@ a {
 
 @media(max-width:421px) {
     .traid-icon {
-        margin-top: 10px;
+        margin-top: 7px;
         margin-bottom: 10px;
         margin-right: 10px;
     }
@@ -1091,6 +1113,7 @@ a {
 @media(max-width:421px) {
     .vashi-budushie-klienti-text {
         width: 282px;
+        margin:0 auto;
         margin-top: 0;
     }
 }
@@ -1108,6 +1131,7 @@ a {
 }
 
 .vashi-budushie-klienti-text-content {
+    width: 525px;
     padding-top: 30px;
     font-size: 24px;
     line-height: 140%;
@@ -1116,6 +1140,7 @@ a {
 
 @media(max-width:421px) {
     .vashi-budushie-klienti-text-content {
+        width: 282px;
         padding-top: 10px;
         font-size: 16px;
     }
@@ -1132,9 +1157,9 @@ a {
 @media(max-width:421px) {
     .vashi-budushie-klienti-slider {
         width: 320px;
+        margin:0 auto;
         margin-top: 20px;
-        margin-left: 0;
-        margin-right: 0;
+       
     }
 }
 
