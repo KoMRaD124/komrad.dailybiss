@@ -1,30 +1,39 @@
-if (window.screen.width <422){
-    var clickActiveSam=document.getElementById("sam-button-mobile")
-    var clickActiveVam=document.getElementById("vam-button-mobile")
-}
-else{
-    var clickActiveSam=document.getElementById("sam-button")
-    var clickActiveVam=document.getElementById("vam-button")
-}
-const hideSam=document.querySelector(".vibrat-variant-right-sam")
-const hideVam=document.querySelector(".vibrat-variant-right-vam")
-clickActiveSam.addEventListener("click", ()=>{
-    if(!clickActiveSam.classList.contains("krya"))
-    {
-        clickActiveSam.classList.add("krya")
-        clickActiveVam.classList.remove("krya")
+const hideSam = document.querySelector(".vibrat-variant-right-sam")
+const hideVam = document.querySelector(".vibrat-variant-right-vam")
+
+const handleSamButtonClick = (samButton, vamButton) => () => {
+    if (!samButton.classList.contains("krya")) {
+        samButton.classList.add("krya")
+        vamButton.classList.remove("krya")
         hideSam.classList.remove("hide")
         hideVam.classList.add("hide")
     }
-})
-clickActiveVam.addEventListener("click", ()=>{
-    if(!clickActiveVam.classList.contains("krya"))
-    {
-        clickActiveVam.classList.add("krya")
-        clickActiveSam.classList.remove("krya")
+}
+
+const handleVamButtonClick = (samButton, vamButton) => () => {
+    if (!vamButton.classList.contains("krya")) {
+        vamButton.classList.add("krya")
+        samButton.classList.remove("krya")
         hideSam.classList.add("hide")
         hideVam.classList.remove("hide")
-        
     }
-})
+}
 
+const eventHandler = () => {
+    let samButton
+    let vamButton
+    if (window.screen.width < 768) {
+        samButton = document.getElementById("sam-button-mobile")
+        vamButton = document.getElementById("vam-button-mobile")
+    } else {
+        samButton = document.getElementById("sam-button")
+        vamButton = document.getElementById("vam-button")
+    }
+    samButton.onclick = handleSamButtonClick(samButton, vamButton)
+    vamButton.onclick = handleVamButtonClick(samButton, vamButton)
+    console.log("123")
+}
+
+['DOMContentLoaded', 'resize'].forEach(function(e) {
+    window.addEventListener(e, eventHandler);
+});
