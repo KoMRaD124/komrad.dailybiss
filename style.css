@@ -1642,8 +1642,8 @@ footer {
 }
 
 .form-mobile-text {
-    max-width: 332px;
-    max-height: 74px;
+    width: 332px;
+    height: 74px;
     border: 3px solid #1D1D1F;
     border-radius: 15px;
     font-weight: 400;
@@ -1652,7 +1652,7 @@ footer {
     padding-left: 20px;
     padding-top: 23px;
     padding-bottom: 23px;
-    padding-right: 210px;
+    
 }
 
 @media(max-width:768px) {
@@ -1883,4 +1883,66 @@ input:checked+label {
 }
 #politic-main2{
     padding-right: 0px !important;
+}
+
+
+
+.uspeh-popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top:0;
+    left: 0; 
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99999;
+}
+.uspeh-popup-body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.uspeh-popup-content{
+    background-color: #fff;
+    width: 1042px;
+    height: 600px;
+    border-radius: 15px;
+    position: relative;
+}
+.uspeh-popup-close{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 53px;
+    right: 54px;
+    background: url("img/krestik.svg");
+    cursor: pointer;
+}
+.uspeh-popup-content-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.uspeh-popup-content-text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 140%;
+padding-top: 25px;
+}
+.uspeh-logo{
+    width: 120px;
+    height: 120px;
+}
+
+.active{
+    opacity: 1;
+    visibility: visible;
 }
