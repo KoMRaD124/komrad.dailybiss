@@ -1937,6 +1937,21 @@ font-size: 32px;
 line-height: 140%;
 padding-top: 25px;
 }
+@media(max-width:768px) {
+    .uspeh-popup-content-text{
+        font-size: 16px;
+        padding-top: 15px;
+    }
+    .uspeh-logo{
+        width: 60px;
+        height: 60px;
+    }
+    .uspeh-popup-close{
+        background: url("img/x-mobile.svg");
+        width: 18.67px;
+        height: 18.67px;
+    }
+}
 .uspeh-logo{
     width: 120px;
     height: 120px;
