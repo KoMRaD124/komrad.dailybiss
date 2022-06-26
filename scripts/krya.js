@@ -31,7 +31,7 @@ const eventHandler = () => {
     }
     samButton.onclick = handleSamButtonClick(samButton, vamButton)
     vamButton.onclick = handleVamButtonClick(samButton, vamButton)
-    console.log("123")
+
 }
 
 ['DOMContentLoaded', 'resize'].forEach(function(e) {
