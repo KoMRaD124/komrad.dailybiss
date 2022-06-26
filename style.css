@@ -1855,8 +1855,8 @@ input:checked+label {
         max-width:300px !important; 
     }
     .modal-content{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 .modal-dialog{
