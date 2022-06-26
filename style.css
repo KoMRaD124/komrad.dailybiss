@@ -1946,3 +1946,7 @@ padding-top: 25px;
     opacity: 1;
     visibility: visible;
 }
+body.active{
+    overflow-y: hidden;
+    padding-right: 15px;
+}

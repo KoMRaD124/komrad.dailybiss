@@ -7,8 +7,11 @@ document.getElementById("form").addEventListener("submit",(e)=>{
 openBlock.addEventListener("click",()=>{
    
     popup.classList.add("active")
+    document.body.classList.add("active")
+    
 
 })
 popupbody.addEventListener("click",()=>{
     popup.classList.remove("active")
+    document.body.classList.remove("active")
 })

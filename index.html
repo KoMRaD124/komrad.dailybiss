@@ -656,7 +656,7 @@
                         <div class="form-checked"><input class="form-checked-checkbox" type="checkbox" name="" id="checkbox1" > <label for="checkbox1"></label><div
                                 class="form-cheked-text">Нажимая на кнопку вы соглашаетесь с <span class="polit-buttom"  data-bs-toggle="modal" data-bs-target="#politic-main2"> политикой 
                                     конфиденциальности</span></div> </div>
-                        <div class="form-button"><input class="form-button-button" type="submit" disabled></div>
+                        <div class="form-button"><input class="form-button-button" type="submit" data-bs-dismiss="modal" aria-label="Close" disabled></div>
                     </form>
                 </div>
             </div>
@@ -1057,10 +1057,10 @@
     <div class="mobile-call-icon">
         <a href="tel:+79056436609"><img src="img/CallMeMobile.svg"></a>
     </div>
-    <div class="uspeh-popup">
-        <div class="uspeh-popup-body">
-            <div class="uspeh-popup-content">
-                <div class="uspeh-popup-close"></div>
+    <div class="uspeh-popup" aria-label="Close">
+        <div class="uspeh-popup-body"   aria-label="Close">
+            <div class="uspeh-popup-content" >
+                <div class="uspeh-popup-close" aria-label="Close"></div>
                 <div class="uspeh-popup-content-content">
                     <div class="uspeh-popup-content-logo"><img src="img/Успех.svg" alt="" class="uspeh-logo"></div>
                     <div class="uspeh-popup-content-text">Успешно отправлено!</div>
