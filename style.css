@@ -276,6 +276,9 @@ a {
 }
 .main-text-text{
     width: 879px;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 140%;
 }
 @media (max-width:768px) {
     .main-text {
