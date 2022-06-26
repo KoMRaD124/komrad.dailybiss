@@ -266,6 +266,7 @@ a {
 
     width: 890px;
     height: 146px;
+    font-weight: 600;
     padding-left: 40px;
     padding-top: 56px;
     font-weight: 600;
@@ -273,7 +274,9 @@ a {
     line-height: 140%;
     color: #FFFFFF;
 }
-
+.main-text-text{
+    width: 879px;
+}
 @media (max-width:768px) {
     .main-text {
         width:320px;
@@ -285,7 +288,9 @@ a {
         padding-right: 71px;
         padding-top: 20px;
         align-items: center;
-
+    }
+    .main-text-text{
+        width:247px;
     }
 }
 
@@ -651,7 +656,7 @@ a {
     }
 }
 
-.variant-li {}
+
 
 @media(max-width:768px) {
     .variant-li {
@@ -685,7 +690,7 @@ a {
     }
 }
 
-.vibrat-variant-spisok {}
+
 
 @media(max-width:768px) {
     .vibrat-variant-spisok {}
@@ -1588,6 +1593,7 @@ footer {
         width: 300px;
         height: 453px;
         margin: 0 auto;
+        padding-right: 5px;
     }
 }
 
